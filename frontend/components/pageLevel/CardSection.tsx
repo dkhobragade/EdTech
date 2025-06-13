@@ -9,7 +9,7 @@ import clock from '../../public/clock.png'
 const CardSection = () =>
 {
     return (
-        <div>
+        <>
             <div className='grid grid-rows-2 gap-8'>
                 <div className='font-[Handlee] text-3xl p-1 w-76 font-semibold h-10 bg-[#FFC9F0]'>
                     How can we help you?
@@ -35,7 +35,7 @@ const CardSection = () =>
                     </CardContainer>
                 </div>
             </div>
-        </div>
+        </>
     )
 }
 

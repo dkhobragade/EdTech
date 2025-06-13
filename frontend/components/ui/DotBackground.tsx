@@ -9,7 +9,7 @@ interface BgProps
 export function DotBackground ( props: BgProps )
 {
     return (
-        <div className="relative flex h-screen w-screen items-center justify-center bg-white dark:bg-black">
+        <div className="h-screen w-full items-center justify-center bg-white dark:bg-black">
             <div
                 className={ cn(
                     "absolute inset-0 z-0",
