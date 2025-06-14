@@ -62,7 +62,7 @@ export default function MainLayout ( {
                                         <IconClockQuestion />
                                     </span>
                                 </div>
-                                <div className='w-full h-full flex gap-2 cursor-pointer'>
+                                <div className='w-full h-full flex gap-2 cursor-pointer' onClick={ () => router.push( '/download' ) }>
                                     Download
                                     <span>
                                         <IconDownload />

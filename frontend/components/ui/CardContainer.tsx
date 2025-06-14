@@ -14,7 +14,7 @@ const CardContainer = ( props: CardContainerProps ) =>
 {
     return (
         <div className={ `w-70 h-90 bg-[${ props.color }] ${ props.className } border-[${ props.color }] rounded-lg p-5 flex items-center justify-center` }>
-            <div className='w-full'>
+            <div className='w-25'>
                 { props.src && <Image src={ props.src } alt='' /> }
                 { props.children }
             </div>
